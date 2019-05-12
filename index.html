@@ -1,0 +1,68 @@
+<html >
+<head>
+<link href="C:\xampp\htdocs\goldCalculation\css\bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"  crossorigin="anonymous"/>
+<script src="C:\xampp\htdocs\goldCalculation\js\bootstrap.min.js">
+</script>
+<script src="C:\xampp\htdocs\goldCalculation\js\jquery.min.js">
+</script>
+<meta charset="UTF-8">
+<title>My project </title>
+</head>
+<body class="container-fluid" bgcolor="pink" >
+<div>
+<nav class="navbar navbar-dark bg-success">
+  <a class="navbar-brand" href="#">ေရႊ ျမ င့္ မို ရ္ ေ ရႊ ဆို င္</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</div>
+<div>
+<form action="myProject.php" method="POST">
+<table class="table table-hover" border="3" cellpadding="3" cellspacing="3">
+<tr><td align="center" colspan="2"><b>ေရႊ တ ြက္ ျခ င္ း</b></td></tr>
+<tr><td align="center"><label>လက္ရွိေရႊေစ်း</label></td><td><input type="text" name="txt1"/></td></tr>
+<tr><td align="center"><label>ေရႊအ ေလးခ်ိန္</label>
+</td><td><input type="text" name="kyat" placeholder="က်ပ္သား"/>
+<input type="text" name="pel" placeholder="ပဲ"/>
+<input type="text" name="ywal" placeholder="ေ ရ ြး"/>
+<input type="text" name="chan" placeholder="ျခ မ္း"/>
+<input type="text" name="sate" placeholder="စိတ္"></td>
+<tr><td align="center"><label>အ ေလ်ာ ့ တ ြ က္</label></td><td><input type="text" name="txt3"/></td></tr>
+<tr><td align="center"><label>လက္ခ</label></td><td><input type="text" name="txt4"/></td></tr>
+<tr><td><button  type="submit" name="total" class="btn btn-success">က် သင့္ ေ င ြစု စု ေပါ င္း</button></td>
+<td><input type="reset" name="reset" class="btn btn-danger" value="ျပ ဳ ျပင္ ရ န္"/></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>
