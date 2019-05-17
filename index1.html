@@ -1,5 +1,18 @@
 <html>
 <head>
+<style>
+#dv{
+color:red;
+font-size:2em;
+font-family:"Times New Roman";
+text-shadow:1px 2px 2px cyan;
+}
+#hh{
+font-size:3em;
+font-weight:bold;
+text-shadow:4px 4px 2px cyan;
+}
+</style>
 <link href="C:\xampp\htdocs\goldCalculation\css\bootstrap.min.css" rel="stylesheet"/>
 <script src="C:\xampp\htdocs\goldCalculation\jquery\jquery.min.js">
 </script>
@@ -17,7 +30,7 @@
 <script type="text/javascript" src="index.js"></script>
 <div>
 <nav class="navbar navbar-dark bg-success">
-  <a class="navbar-brand" href="">ေရႊ ျမ င့္ မို ရ္ ေ ရႊ ဆို င္</a>
+  <div id="hh"><a  class="navbar-brand" href="">ေရႊ ျမ င့္ မို ရ္ ေ ရႊ ဆို င္</a></div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -58,16 +71,17 @@
 <tr><td align="center"><label>လက္ရွိေရႊေစ်း</label></td>
 <td><input type="text" id="gp"/></td></tr>
 <tr><td align="center"><label>ေရႊအ ေလးခ်ိန္</label>
-</td><td><input type="text" id="kt" placeholder="က်ပ္သား"/>
-<input type="text" id="pel" placeholder="ပဲ"/>
-<input type="text" id="yal" placeholder="ေ ရ ြး"/>
+</td><td><input type="text" id="kt"/>က်ပ္သား
+<input type="text" id="pel" />ပဲ
+<input type="text" id="yal" />ေ ရ ြး
 <tr><td align="center"><label>အ ေလ်ာ ့ တ ြ က္</label></td>
-<td><input type="text" id="pel2" placeholder="ပဲ"/>
-<input type="text" id="yal2" placeholder="ေ ရ ြး"/></td></tr>
+<td><input type="text" id="pel2" />ပဲ
+<input type="text" id="yal2" /> ေ ရ ြး</td></tr>
 <tr><td align="center"><label>လက္ခ</label></td><td><input type="text" id="lk"/></td></tr>
 <tr><td><button  type="submit" id="smt" class="btn btn-primary">က် သင့္ ေ င ြစု စု ေပါ င္း</button></td>
 <td><input type="reset" id="reset" class="btn btn-warning" value="ျပ ဳ ျပင္ ရ န္"/></td></tr>
 </table>
 </div>
+<div id="dv">hello world </div>
 </body>
 </html>
